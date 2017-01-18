@@ -11,7 +11,7 @@ public class hellocontroller {
 		System.out.println("name " + name);
 		model.addAttribute("name", name);
 		model.addAttribute("age", age);
-		return "hello2";
+		return "hello";
 		
 	}
 	
